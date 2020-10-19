@@ -6,6 +6,7 @@ const createTokens = require('../../createTokens')
 const jwt = require('jsonwebtoken')
 const nodemailer = require('nodemailer');
 const { cloudinary } = require('../../cloudinary/cloudinary')
+require('dotenv').config();
 
 const transporter = nodemailer.createTransport({
     service: 'Gmail',

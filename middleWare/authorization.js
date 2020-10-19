@@ -1,6 +1,7 @@
 const { response } = require('express')
 const jwt = require('jsonwebtoken')
 const createTokens = require('../createTokens')
+require('dotenv').config();
 
 module.exports = async (req, res, next) => {
     const accesToken = req.headers.accestoken

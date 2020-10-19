@@ -9,6 +9,7 @@ const app = express()
 const authorization = require('./middleWare/authorization')
 const User = require('./models/user.js')
 const jwt = require('jsonwebtoken')
+require('dotenv').config();
 
 app.get('/confirmation/:token', async (req, res) => {
     try {
