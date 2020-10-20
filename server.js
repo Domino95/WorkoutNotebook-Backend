@@ -20,7 +20,7 @@ app.get('/confirmation/:token', async (req, res) => {
     } catch (error) {
         res.send('error');
     }
-    return res.redirect('http://localhost:3000');
+    return res.redirect('https://admiring-fermat-7f4b6e.netlify.app');
 });
 
 app.use((req, res, next) => {
