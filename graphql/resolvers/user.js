@@ -87,6 +87,7 @@ module.exports = {
                             upload_preset: "WorkoutsNotebook"
                         })
                     user.photoUrl = updateRespone.secure_url
+                    console.log(updateRespone.secure_url, args.photo)
                 }
                 user.name = args.name,
                     user.goal = args.goal
