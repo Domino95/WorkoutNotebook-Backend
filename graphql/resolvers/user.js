@@ -52,7 +52,7 @@ module.exports = {
                     const emailToken = jwt.sign({ userId: result._id }, process.env.SECRET_EMAIL_TOKEN, { expiresIn: '365d' })
                     const url = `https://calm-brushlands-68977.herokuapp.com/confirmation/${emailToken}`
                     await transporter.sendMail({
-                        from: process.env.GMAIL_USER,
+                        from: 'workoutsnotebook@gmail.com',
                         to: email,
                         subject: 'Confirm Email',
                         html: `
