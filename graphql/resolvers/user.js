@@ -63,7 +63,7 @@ module.exports = {
                         </div>
                         <h1 style="text-align:center;color:black;">Please click this button to confirm your email</h1> 
                       <a href="${url}" style="text-decoration:none;" >
-                       <div style='box-sizing:border-box;padding: 15px 65px 15px 65px; height:50px;
+                       <div style='box-sizing:border-box;padding: 15px 55px 15px 55px; height:50px;
                         width:200px;margin: 60px auto 30px auto;background-color:#ffd901;border-radius:15px;color:black;'>Verify email</div></a> 
                         `,
                     });
