@@ -1,4 +1,4 @@
-## WorkoutNotebook - Frontend
+## WorkoutNotebook - Backend
 Workout tracker web application - server side code<br/>
 I have deployed app code on Heroku
 
